@@ -1,5 +1,5 @@
 public class TestPieces {
-	public static void main (Sting[] args){
+	public static void main (String[] args){
 		
 		
 	}
