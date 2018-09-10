@@ -1,4 +1,4 @@
-public class ChessPeice{
+public class ChessPiece{
 	
 	private int xPos, yPos;
 	private String color, type;
