@@ -1,15 +1,20 @@
 public class ChessPiece{
 	
-	private int xPos, yPos;
+	private int yPos;
+	private char xPos;
 	private String color, type;
 	
-	public void setPosition(int x, int y){
+	public void setPosition(char x, int y){
 		xPos = x;
 		yPos = y;
 	}
 	
-	public int getPosition(){
-		return xPos, yPos;
+	public char getXPosition(){
+		return xPos;
+	}
+	
+	public int getYPosition(){
+		return yPos;
 	}
 	
 	public void setColor(String x){
@@ -17,20 +22,20 @@ public class ChessPiece{
 	}
 	
 	public String getColor(){
-		return color:
+		return color;
 	}
 	
-	public void setPeiceType(String x){
+	public void setPieceType(String x){
 		type = x;
 	}
 	
-	public String getPieceType(String x){
+	public String getPieceType(){
 		return type;
 	}
 	
 	public String printInfo(){
 		return "Color: " + color + "\n"
-		+ "Peice : " + type + "\n"
-		+ "Position: " + xPos + ", " + yPos; 
+		+ "Piece : " + type + "\n"
+		+ "Position: " + xPos + yPos; 
 	}
 }	
